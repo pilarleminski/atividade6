@@ -106,6 +106,8 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -127,3 +129,6 @@
     filter: invert(1);
   }
 }
+.erro {
+  color: green; 
+ }
